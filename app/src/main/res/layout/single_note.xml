@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    app:cardElevation="5dp"
+    android:clickable="true"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <LinearLayout
+        android:background="#D50000"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout_singlerow"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DataTextview_singlerow"
+            android:textColor="@color/white"
+            tools:text="Content comes here"
+            android:textSize="30sp"
+            android:paddingBottom="10dp"
+            android:maxLines="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/DateAndTimeTextview_singlerow"
+            tools:text="06 Fri 11:13 AM"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            />
+        
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
